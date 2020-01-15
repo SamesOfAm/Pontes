@@ -33,5 +33,3 @@ if ($GLOBALS['TL_LANGUAGE'] === 'de') {
         </div>
     </div>
 </div>
-
-blaablub alkdsjf laskdjf lasjd flj
