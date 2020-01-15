@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="58868bdf-142b-4ad7-b6ee-0771bc64fdd3" name="Pontes" url="http://ftp.pontes-pabuli.de">
+        <fileTransfer host="ftp.pontes-pabuli.de" port="21" rootFolder="/contao44">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

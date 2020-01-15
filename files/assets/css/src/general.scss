@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Pabuli';
+  src: url('../fonts/pabuli1.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Menubutton';
+  src: url("../fonts/menubutton.woff") format('woff');
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+@import "header";
+@import "footer";
+@import "main";
