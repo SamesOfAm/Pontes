@@ -7,4 +7,5 @@
     <li class="mobile-menu-option"><a href="datenschutz.html">Datenschutz</a></li>
     <li class="mobile-menu-option"><a href="impressum.html">Impressum</a></li>
     <li class="mobile-menu-option"><a href="kontakt.html">Kontakt</a></li>
+    {{insert_module::7}}
 </ul>

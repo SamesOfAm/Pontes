@@ -22,6 +22,7 @@ if ($GLOBALS['TL_LANGUAGE'] === 'de') {
                 04107 Leipzig<br>
                 <?= $country ?>
             </div>
+
         </div>
         <div class="footer-phone">
             <div class="footer-icon"><img src="files/images/layout/phone.svg"></div>
@@ -31,5 +32,7 @@ if ($GLOBALS['TL_LANGUAGE'] === 'de') {
             <div class="footer-icon"><img src="files/images/layout/mail.svg"></div>
             <div class="footer-text"><a href="mailto:l.leidolph@pontes-pabuli.de"><span class="info-desktop">E-Mail&nbsp;&nbsp;&nbsp;</span>T.Hager@pontes-pabuli.de</a></div>
         </div>
+        <div class="info-desktop">{{insert_module::7}}<br></div>
+        <div class="image-mobile">{{insert_module::7}}</div>
     </div>
 </div>

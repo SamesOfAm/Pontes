@@ -24,10 +24,21 @@
   }
 }
 
+#header .level_1{
+  .first {
+    color: $gray;
+    }
+  .last {
+    color: $gray;
+    }
+  }
+
+
 .meta-navigation {
   position: absolute;
   top: 15px;
-  right: 16px;
+  //right: 16px;
+  right: 44px;
   padding-bottom: 5px;
   a {
     color: $gray;
