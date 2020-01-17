@@ -1,3 +1,33 @@
+<?php
+if ($GLOBALS['TL_LANGUAGE'] === 'de') {
+
+    $home = 'Unsere Partner';
+    $policy = 'Datenschutz';
+    $imprint = 'Impressum';
+    $contact = 'Kontakt';
+    $phosphor1 = 'phosphor-';
+    $phosphor2 = 'rückgewinnung';
+    $product1 = 'unsere';
+    $product2 = 'produkte';
+    $service1 = 'unser';
+    $service2 = 'angebot';
+
+} elseif ($GLOBALS['TL_LANGUAGE'] === 'en') {
+
+    $home = 'Partnerships';
+    $policy = 'Privacy Policy';
+    $imprint = 'Imprint';
+    $contact = 'Contact';
+    $phosphor1 = 'phosphate';
+    $phosphor2 = 'recycling';
+    $product1 = 'our';
+    $product2 = 'products';
+    $service1 = 'our';
+    $service2 = 'services';
+
+};
+?>
+
 <div id="header-wrapper">
     <div class="meta-navigation-bar">
         <div class="meta-navigation-content">
@@ -10,22 +40,22 @@
                     </li>  -->
                     <li class="meta-option">
                         <a href="home.html#partner">
-                            <span>Unsere Partner</span>
+                            <span><?= $home; ?></span>
                         </a>
                     </li>
                     <li class="meta-option">
                         <a href="kontakt.html">
-                            <span>Kontakt</span>
+                            <span><?= $contact; ?></span>
                         </a>
                     </li>
                     <li class="meta-option">
                         <a href="datenschutz.html">
-                            <span>Datenschutz</span>
+                            <span><?= $policy; ?></span>
                         </a>
                     </li>
                     <li class="meta-option">
                         <a href="impressum.html">
-                            <span>Impressum</span>
+                            <span><?= $imprint; ?></span>
                         </a>
                     </li>
                 </ul>
@@ -52,7 +82,7 @@
                     <div class="teaser-option">
                         <div class="teaser-option-icon phosphor-icon"><img src="files/images/layout/phosphor.svg"></div>
                         <div class="option-underline">
-                            <span>Phosphor-<br class="teaser-option-break">Rückgewinnung</span>
+                            <span><?= $phosphor1; ?><br class="teaser-option-break"><?= $phosphor2; ?></span>
                         </div>
                     </div>
                 </a>
@@ -60,7 +90,7 @@
                     <div class="teaser-option">
                         <div class="teaser-option-icon product-icon"><img src="files/images/layout/produkte.svg"></div>
                         <div class="option-underline">
-                            <span>Unsere <br class="teaser-option-break">Produkte</span>
+                            <span><?= $product1; ?> <br class="teaser-option-break"><?= $product2; ?></span>
                         </div>
                     </div>
                 </a>
@@ -68,7 +98,7 @@
                     <div class="teaser-option">
                         <div class="teaser-option-icon services-icon"><img src="files/images/layout/angebot.svg"></div>
                         <div class="option-underline">
-                            <span>Unser <br class="teaser-option-break">Angebot</span>
+                            <span><?= $service1; ?><br class="teaser-option-break"><?= $service2; ?></span>
                         </div>
                     </div>
                 </a>

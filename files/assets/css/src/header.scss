@@ -27,9 +27,11 @@
 #header .level_1{
   .first {
     color: $gray;
+    padding-left: 11px;
     }
   .last {
     color: $gray;
+    padding-left: 11px;
     }
   }
 
@@ -37,8 +39,7 @@
 .meta-navigation {
   position: absolute;
   top: 15px;
-  //right: 16px;
-  right: 44px;
+  right: 16px;
   padding-bottom: 5px;
   a {
     color: $gray;
@@ -53,7 +54,7 @@
   }
   ul {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     list-style: none;
   }
 }
