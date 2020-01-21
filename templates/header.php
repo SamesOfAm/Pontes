@@ -103,7 +103,7 @@ if ($GLOBALS['TL_LANGUAGE'] === 'de') {
                     <div class="teaser-option <?php if($GLOBALS['objPage']->alias === 'produkte' || $GLOBALS['objPage']->alias === 'our-products'): ?>option-active<?php endif; ?>">
                         <div class="teaser-option-icon product-icon"><img src="files/images/layout/produkte.svg"></div>
                         <div class="option-underline">
-                            <span><?= $product1; ?> <br class="teaser-option-break"><?= $product2; ?></span>
+                            <span><?= $product1; ?></span>
                         </div>
                     </div>
                 </a>
@@ -111,14 +111,14 @@ if ($GLOBALS['TL_LANGUAGE'] === 'de') {
                     <div class="teaser-option <?php if($GLOBALS['objPage']->alias === 'angebot' || $GLOBALS['objPage']->alias === 'our-services'): ?>option-active<?php endif; ?>">
                         <div class="teaser-option-icon services-icon"><img src="files/images/layout/angebot.svg"></div>
                         <div class="option-underline">
-                            <span><?= $service1; ?><br class="teaser-option-break"><?= $service2; ?></span>
+                            <span><?= $service1; ?></span>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="teaser-overlay">
                 <div class="teaser-headline">
-                    <img src="files/images/layout/logo-white.png">
+                    <img src="files/images/layout/logo-white-{{page::language}}.png">
                 </div>
                 <div class="mobile-logo">
                     <img src="files/images/layout/logo-white.svg">
